@@ -1010,7 +1010,7 @@ pre .javascript .function {
   position: relative;
 }
 .headband {
-  background: #222;
+  background: #0684bd;
   height: 3px;
 }
 .site-meta {
@@ -1673,7 +1673,7 @@ article:last-child .post-eof {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #2daf78;
+  background: #9853f6;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2290,14 +2290,21 @@ ul.breadcrumb li + li:last-child {
     width: auto;
   }
 }
-.back-to-top {
-  left: auto;
-  right: 30px;
+.header-inner {
+  right: 0;
 }
-@media (max-width: 991px) {
-  .back-to-top {
-    right: 20px;
-  }
+.content-wrap {
+  float: left;
+}
+.sidebar {
+  float: right;
+}
+.book-mark-link {
+  left: 30px;
+}
+.footer-inner {
+  padding-left: 0;
+  padding-right: 260px;
 }
 .site-brand-container {
   position: relative;
@@ -2305,7 +2312,7 @@ ul.breadcrumb li + li:last-child {
 .site-meta {
   background: #0684bd;
   color: #fff;
-  padding: 20px 0;
+  padding: 30px 0;
 }
 @media (max-width: 991px) {
   .site-meta {
